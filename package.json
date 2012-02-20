@@ -1,0 +1,13 @@
+{
+  "author": "Karl Seguin <karl@openmymind.net> (http://openmymind.net/)",
+  "name": "node-ci",
+  "version": "0.0.1",
+  "engines": { "node": ">= v0.6.9" },
+  "dependencies": {
+    "jade": "= 0.20.3",
+    "async": "= 0.1.16",
+    "express": "= 2.5.4",
+    "node-model": "git://github.com/karlseguin/node-model.git",
+    "redis": "= 0.7.1"
+  }
+}

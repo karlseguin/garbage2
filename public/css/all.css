@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+html{font-family:verdana;color:#444;font-size:90%;}
+table{width:90%;margin:30px auto;border-collapse:collapse;}
+th{text-align:left;border-bottom:2px solid #eee;}
+th,td{padding:10px;}
+td{border-bottom:5px solid #fff;}
+tr.pass{background:#efe;}
+tr.fail{background:#fee;}

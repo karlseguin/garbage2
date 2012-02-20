@@ -1,0 +1,9 @@
+table
+  tbody
+  - each project in overview
+    tr(class=project.build.pass ? 'pass' : 'fail')
+      td=project.name
+      td=project.build.message
+      td=project.build.date
+      td=project.build.test.total + ' tests (' + project.build.test.failed + ' failed)'
+      td=project.build.time + 'ms'
